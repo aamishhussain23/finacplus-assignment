@@ -31,7 +31,7 @@ cd finacplus-assignment
 ### 2. Backend Setup
 Next, set up the backend:
 
-##### 1. Open terminal and run below command to go to the ```backend``` directory:
+##### 1. Now, run the below command to go to the ```backend``` directory:
 ```bash
 cd backend
 ```
@@ -40,7 +40,7 @@ cd backend
 npm install
 ```
 
-##### 3. Now, Create a ```.env``` file inside the ```backend``` directory with the following content:
+##### 3. Now, Create a ```.env``` file inside ```backend``` directory of ```finacplus-assignment``` with the following content:
 ```bash
 PORT = 5000
 DB_URI = mongodb://localhost:27017/FinacPlus

@@ -79,7 +79,7 @@ npm install
 ##### 3. Now, Go to the ```frontend``` folder of ```finacplus-assignment``` then open ```src``` folder and open the ```App.jsx``` file. And here set the ```baseurl``` as follows:
 
 ```bash
-const baseurl = "http://127.0.0.1:5000/api/v1/user";
+export const baseurl = "http://127.0.0.1:5000/api/v1/user";
 ```
 
 # Running the Application

@@ -31,23 +31,23 @@ cd finacplus-assignment
 ### 2. Backend Setup
 Next, set up the backend:
 
-##### 1. Change to the ```backend``` directory:
+##### 1. Open terminal and run below command to go to the ```backend``` directory:
 ```bash
 cd backend
 ```
-##### 2. Initialize the project and install dependencies:
+##### 2. Next, Run below command to initialize the project and install dependencies:
 ```bash
 npm init
 ```
 
-##### 3. Create a ```.env``` file inside the ```backend``` directory with the following content:
+##### 3. Now, Create a ```.env``` file inside the ```backend``` directory with the following content:
 ```bash
 PORT = 5000
 DB_URI = mongodb://localhost:27017/FinacPlus
 LOCAL_URI = http://localhost:5173
 ```
 
-##### 4. Start the server:
+##### 4. Now, Open terminal and run below command to start the server:
 ```bash
 node server.js
 ```
@@ -63,19 +63,19 @@ Database connected with localhost
 ### 3. Frontend Setup
 Now, set up the frontend:
 
-##### 1. Open a new terminal and navigate to the ```frontend``` directory:
+##### 1. Open a new terminal and paste below command to navigate to the ```frontend``` directory:
 
 ```bash
 cd frontend
 ```
 
-##### 2. Initialize the project and install dependencies:
+##### 2. Next, Run below command to initialize the project and install dependencies:
 
 ```bash
 npm init
 ```
 
-##### 3. Go to the ```src``` folder and open the ```App.jsx``` file. Set the ```baseurl``` as follows:
+##### 3. Now, Go to the ```src``` folder and open the ```App.jsx``` file. Set the ```baseurl``` as follows:
 
 ```bash
 const baseurl = "http://127.0.0.1:5000/api/v1/user";

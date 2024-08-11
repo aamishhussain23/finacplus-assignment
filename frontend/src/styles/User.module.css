@@ -1,0 +1,64 @@
+.userContainer {
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.userDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.detailRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.label {
+    font-weight: bold;
+    color: #555;
+    min-width: 150px;
+    flex-shrink: 0;
+}
+
+.value {
+    color: #777;
+    word-wrap: break-word;
+    max-width: calc(100% - 150px);
+}
+
+.aboutRow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.aboutLabel {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.aboutValue {
+    color: #777;
+    text-align: justify;
+    line-height: 1.6;
+}

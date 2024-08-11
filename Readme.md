@@ -20,7 +20,7 @@ Make sure you have the following installed on your machine:
 Follow these steps to set up the project locally.
 
 ### 1. Clone the Repository
-First, clone the repository to your local machine:
+First, Open VS code terminal and clone the repository to your local machine:
 ```bash
 git clone https://github.com/aamishhussain23/finacplus-assignment.git
 ```

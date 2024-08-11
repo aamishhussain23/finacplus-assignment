@@ -37,7 +37,7 @@ cd backend
 ```
 ##### 2. Next, Run below command to install project dependencies:
 ```bash
-npm install -y
+npm install
 ```
 
 ##### 3. Now, Create a ```.env``` file inside the ```backend``` directory with the following content:
@@ -66,6 +66,7 @@ Now, set up the frontend:
 ##### 1. Open a new terminal and paste below command to navigate to the ```frontend``` directory:
 
 ```bash
+cd finacplus-assignment
 cd frontend
 ```
 

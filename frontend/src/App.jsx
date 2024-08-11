@@ -7,7 +7,7 @@ import EditUser from './components/EditUser';
 import { Toaster } from 'react-hot-toast';
 import User from './components/User';
 
-export const baseurl = "http://127.0.0.1:5000/api/v1/user"
+export const baseurl = "https://aamish-finacplus-assignment.onrender.com/api/v1/user"
 
 function App() {
   return (

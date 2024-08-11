@@ -37,7 +37,7 @@ cd backend
 ```
 ##### 2. Next, Run below command to initialize the project and install dependencies:
 ```bash
-npm init
+npm init -y
 ```
 
 ##### 3. Now, Create a ```.env``` file inside the ```backend``` directory with the following content:

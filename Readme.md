@@ -69,10 +69,10 @@ Now, set up the frontend:
 cd frontend
 ```
 
-##### 2. Next, Run below command to initialize the project and install dependencies:
+##### 2. Next, Run below command to install project dependencies:
 
 ```bash
-npm init
+npm install
 ```
 
 ##### 3. Now, Go to the ```src``` folder and open the ```App.jsx``` file. Set the ```baseurl``` as follows:
